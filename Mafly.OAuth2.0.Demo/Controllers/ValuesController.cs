@@ -7,6 +7,7 @@ using System.Web.Http;
 
 namespace Mafly.OAuth2._0.Demo.Controllers
 {
+    [Authorize]
     public class ValuesController : ApiController
     {
         // GET api/values
